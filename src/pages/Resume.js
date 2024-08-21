@@ -61,10 +61,7 @@ const Resume = () => {
           <section style={descriptionStyle}>
             <h2 style={{ margin: '10px' }}>Experiência Profissional</h2>
             <p style={descriptionStyle}>
-              Atualmente, estou em busca de uma oportunidade de estágio, de trainee ou vaga de junior na área de tecnologia.
-              Embora ainda não tenha experiência profissional específica nesse setor,
-              estou altamente motivada e ansiosa para aplicar e expandir meus conhecimentos.
-            </p>
+              Atualmente, estou em busca de uma oportunidade de estágio, de trainee ou vaga de junior na área de tecnologia. Embora ainda não tenha experiência profissional específica nesse setor, estou motivada e ansiosa para aplicar e expandir meus conhecimentos.            </p>
           </section>
         </div>
 
@@ -135,28 +132,40 @@ const Resume = () => {
 
         <div style={projectStyleNone}></div>
         <footer style={descriptionStyle}>
-          <p class="mb-3">
-            <strong>Fernanda Megumi Takeda</strong>
-          </p>
-          <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <Link href="./" class="nav-link text-body-secondary">Página inicial</Link>
+      <p className="mb-3">
+        <strong>Fernanda Megumi Takeda</strong>
+      </p>
+      <ul className="nav justify-content-center">
+        <li className="nav-item">
+          <Link to="/" className="nav-link text-body-secondary">
+            Página inicial
+          </Link>
+        </li>
+        <li className="nav-item dropdown">
+          <a
+            className="nav-link dropdown-toggle text-body-secondary"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Links
+          </a>
+          <ul className="dropdown-menu">
+            <li>
+              <Link to="/resume" className="dropdown-item">
+                Currículo
+              </Link>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-body-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Links
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <Link class="dropdown-item" href="./resume">Currículo</Link>
-                </li>
-                <li>
-                  <Link class="dropdown-item" href="./portfolio">Portfólio</Link>
-                </li>
-              </ul>
+            <li>
+              <Link to="/portfolio" className="dropdown-item">
+                Portfólio
+              </Link>
             </li>
           </ul>
-        </footer>
+        </li>
+      </ul>
+    </footer>
 
       </div>
     </div>
