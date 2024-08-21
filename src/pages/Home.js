@@ -1,5 +1,10 @@
 import React from 'react';
 import fotoPerfil from '../assets/fotoPerfil.jpg';
+import devWeb from '../assets/devWeb.png';
+import devMobile from '../assets/devMobile.png';
+import devSoftware from '../assets/devSoftware.png';
+import cloud from '../assets/cloud.png';
+import container from '../assets/container.png';
 
 const Home = () => {
   const containerQuadradoLilas = {
@@ -37,11 +42,18 @@ const Home = () => {
     textAlign: 'center', // Centraliza o texto
   };
 
-  const imageStyle = {
+  const imageStylePerfil = {
     width: '200px',
     height: '200px',
     borderRadius: '50%',
     marginBottom: '20px', // Espaço abaixo da imagem
+  };
+
+  const imageStyle = {
+    width: '150px',
+    height: '150px',
+    marginBottom: '20px', // Espaço abaixo da imagem
+    marginRight: '20px',
   };
 
   const descriptionStyle = {
@@ -100,7 +112,7 @@ const Home = () => {
 
         <div style={projectStyle}>
           <div style={containerStyle}>
-            <img src={fotoPerfil} alt="Foto de Perfil" style={imageStyle} />
+            <img src={fotoPerfil} alt="Foto de Perfil" style={imageStylePerfil} />
             <p style={descriptionStyle}>
               Estudante de Bacharelado em Ciência da Computação no Instituto Federal de Santa Catarina (IFSC) - Lages.
               Tenho 21 anos, sou de Londrina/Paraná, crescida em São Joaquim/Santa Catarina e Liberdade/São Paulo e
@@ -116,11 +128,7 @@ const Home = () => {
           <section style={descriptionStyleIdiomas}>
             <h2>Áreas de Interesse</h2>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px', maxWidth: '800px', margin: '0 auto' }}>
-              <img
-                style={{ width: '100px', height: '100px', marginRight: '15px' }}
-                src="/assets/front-end.jpg"
-                alt="Desenvolvimento Front-End"
-              />
+            <img src={devWeb} alt="devWeb" style={imageStyle} />
               <div style={{ flex: 1, textAlign: 'justify' }}>
                 <div style={{ fontWeight: 'bold', marginBottom: '5px' }}>Desenvolvimento Web</div>
                 <ul style={{ listStyleType: 'none', padding: 0 }}>
@@ -131,11 +139,7 @@ const Home = () => {
             </div>
 
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px', maxWidth: '800px', margin: '0 auto' }}>
-              <img
-                style={{ width: '100px', height: '100px', marginRight: '15px' }}
-                src="/assets/back-end.jpg"
-                alt="Desenvolvimento Back-End"
-              />
+              <img src={devMobile} alt="devMobile" style={imageStyle} />
               <div style={{ flex: 1, textAlign: 'justify' }}>
                 <div style={{ fontWeight: 'bold', marginBottom: '5px' }}>Desenvolvimento Mobile</div>
                 <ul style={{ listStyleType: 'none', padding: 0 }}>
@@ -145,11 +149,7 @@ const Home = () => {
             </div>
 
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px', maxWidth: '800px', margin: '0 auto' }}>
-              <img
-                style={{ width: '100px', height: '100px', marginRight: '15px' }}
-                src="/assets/mobile.jpg"
-                alt="Desenvolvimento Mobile"
-              />
+              <img src={devSoftware} alt="devSoftware" style={imageStyle} />
               <div style={{ flex: 1, textAlign: 'justify' }}>
                 <div style={{ fontWeight: 'bold', marginBottom: '5px' }}>Desenvolvimento de Software:</div>
                 <ul style={{ listStyleType: 'none', padding: 0 }}>
@@ -159,11 +159,7 @@ const Home = () => {
             </div>
 
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px', maxWidth: '800px', margin: '0 auto' }}>
-              <img
-                style={{ width: '100px', height: '100px', marginRight: '15px' }}
-                src="/assets/cloud-computing.jpg"
-                alt="Computação em Nuvem"
-              />
+              <img src={cloud} alt="cloud" style={imageStyle} />
               <div style={{ flex: 1, textAlign: 'justify' }}>
                 <div style={{ fontWeight: 'bold', marginBottom: '5px' }}>Computação em Nuvem:</div>
                 <ul style={{ listStyleType: 'none', padding: 0 }}>
@@ -173,11 +169,9 @@ const Home = () => {
             </div>
 
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px', maxWidth: '800px', margin: '0 auto' }}>
-              <img
-                style={{ width: '100px', height: '100px', marginRight: '15px' }}
-                src="/assets/cloud-computing.jpg"
-                alt="Computação em Nuvem"
-              />
+              <img src={container} alt="container" style={imageStyle} />
+
+
               <div style={{ flex: 1, textAlign: 'justify' }}>
                 <div style={{ fontWeight: 'bold', marginBottom: '5px' }}>Containers:</div>
                 <ul style={{ listStyleType: 'none', padding: 0 }}>
