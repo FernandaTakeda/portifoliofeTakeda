@@ -1,15 +1,20 @@
 {
   "files": {
     "main.css": "/portifoliofeTakeda/static/css/main.e6c13ad2.css",
-    "main.js": "/portifoliofeTakeda/static/js/main.86824be3.js",
+    "main.js": "/portifoliofeTakeda/static/js/main.b6edbbe4.js",
     "static/js/453.4f4728e5.chunk.js": "/portifoliofeTakeda/static/js/453.4f4728e5.chunk.js",
+    "static/media/fotoPerfil.jpg": "/portifoliofeTakeda/static/media/fotoPerfil.030b1fa541dbf6a6b674.jpg",
+    "static/media/petFriend.png": "/portifoliofeTakeda/static/media/petFriend.a94e2fc5bc16ae07e705.png",
+    "static/media/gooPet.png": "/portifoliofeTakeda/static/media/gooPet.cbfa11cf1db9fe0dcf9c.png",
+    "static/media/devSoftware.png": "/portifoliofeTakeda/static/media/devSoftware.05bdc3e91cd7180ff003.png",
+    "static/media/devWeb.png": "/portifoliofeTakeda/static/media/devWeb.77795b42b117487c9b52.png",
     "index.html": "/portifoliofeTakeda/index.html",
     "main.e6c13ad2.css.map": "/portifoliofeTakeda/static/css/main.e6c13ad2.css.map",
-    "main.86824be3.js.map": "/portifoliofeTakeda/static/js/main.86824be3.js.map",
+    "main.b6edbbe4.js.map": "/portifoliofeTakeda/static/js/main.b6edbbe4.js.map",
     "453.4f4728e5.chunk.js.map": "/portifoliofeTakeda/static/js/453.4f4728e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.86824be3.js"
+    "static/js/main.b6edbbe4.js"
   ]
 }
