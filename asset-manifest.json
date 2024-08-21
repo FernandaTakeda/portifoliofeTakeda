@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portifoliofeTakeda/static/css/main.e6c13ad2.css",
+    "main.js": "/portifoliofeTakeda/static/js/main.86824be3.js",
+    "static/js/453.4f4728e5.chunk.js": "/portifoliofeTakeda/static/js/453.4f4728e5.chunk.js",
+    "index.html": "/portifoliofeTakeda/index.html",
+    "main.e6c13ad2.css.map": "/portifoliofeTakeda/static/css/main.e6c13ad2.css.map",
+    "main.86824be3.js.map": "/portifoliofeTakeda/static/js/main.86824be3.js.map",
+    "453.4f4728e5.chunk.js.map": "/portifoliofeTakeda/static/js/453.4f4728e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.86824be3.js"
+  ]
+}
