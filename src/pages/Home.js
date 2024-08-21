@@ -5,6 +5,7 @@ import devMobile from '../assets/devMobile.png';
 import devSoftware from '../assets/devSoftware.png';
 import cloud from '../assets/cloud.png';
 import container from '../assets/container.png';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const containerQuadradoLilas = {
@@ -219,7 +220,7 @@ const Home = () => {
           </p>
           <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a href="./" class="nav-link text-body-secondary">Página inicial</a>
+              <Link href="./" class="nav-link text-body-secondary">Página inicial</Link>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle text-body-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -227,10 +228,10 @@ const Home = () => {
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="./resume">Currículo</a>
+                  <Link class="dropdown-item" href="./resume">Currículo</Link>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./portfolio">Portfólio</a>
+                  <Link class="dropdown-item" href="./portfolio">Portfólio</Link>
                 </li>
               </ul>
             </li>

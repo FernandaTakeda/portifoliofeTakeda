@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const containerQuadradoLilas = {
   backgroundColor: '#fff',
@@ -62,7 +63,7 @@ const Resume = () => {
             <p style={descriptionStyle}>
               Atualmente, estou em busca de uma oportunidade de estágio, de trainee ou vaga de junior na área de tecnologia.
               Embora ainda não tenha experiência profissional específica nesse setor,
-              estou altamente motivado e ansioso para aplicar e expandir meus conhecimentos técnicos.
+              estou motivada e ansiosa para aplicar e expandir meus conhecimentos.
             </p>
           </section>
         </div>
@@ -139,7 +140,7 @@ const Resume = () => {
           </p>
           <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a href="./" class="nav-link text-body-secondary">Página inicial</a>
+              <Link href="./" class="nav-link text-body-secondary">Página inicial</Link>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle text-body-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -147,10 +148,10 @@ const Resume = () => {
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="./resume">Currículo</a>
+                  <Link class="dropdown-item" href="./resume">Currículo</Link>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./portfolio">Portfólio</a>
+                  <Link class="dropdown-item" href="./portfolio">Portfólio</Link>
                 </li>
               </ul>
             </li>

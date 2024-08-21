@@ -1,6 +1,7 @@
 import React from 'react';
 import petFriend from '../assets/petFriend.png';
 import gooPet from '../assets/gooPet.png';
+import { Link } from 'react-router-dom';
 
 const containerQuadradoLilas = {
   backgroundColor: '#fff', // Cor lilás
@@ -101,7 +102,7 @@ const Portfolio = () => {
           </p>
           <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a href="./" class="nav-link text-body-secondary">Página inicial</a>
+              <Link href="./" class="nav-link text-body-secondary">Página inicial</Link>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle text-body-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -109,10 +110,10 @@ const Portfolio = () => {
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="./resume">Currículo</a>
+                  <Link class="dropdown-item" href="./resume">Currículo</Link>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./portfolio">Portfólio</a>
+                  <Link class="dropdown-item" href="./portfolio">Portfólio</Link>
                 </li>
               </ul>
             </li>
