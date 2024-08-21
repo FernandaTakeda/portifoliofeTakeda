@@ -62,7 +62,7 @@ const Resume = () => {
             <p style={descriptionStyle}>
               Atualmente, estou em busca de uma oportunidade de estágio, de trainee ou vaga de junior na área de tecnologia.
               Embora ainda não tenha experiência profissional específica nesse setor,
-              estou altamente motivado e ansioso para aplicar e expandir meus conhecimentos técnicos.
+              estou altamente motivada e ansiosa para aplicar e expandir meus conhecimentos.
             </p>
           </section>
         </div>
