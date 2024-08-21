@@ -5,7 +5,7 @@ import React from 'react';
 const navStyle = {
   display: 'flex', // Exibe os itens da lista em linha
   justifyContent: 'space-around', // Espaço uniforme entre os itens
-  backgroundColor: '#333',
+  backgroundColor: '#836FFF',
   padding: '1rem'
 };
 
@@ -25,10 +25,6 @@ const linkStyle = {
   textDecoration: 'none',
   fontSize: '1rem',
   padding: '0.5rem 1rem', // Adiciona espaçamento interno aos links
-};
-
-const linkHoverStyle = {
-  textDecoration: 'underline'
 };
 
 const NavBar = () => {
