@@ -220,7 +220,7 @@ const Home = () => {
           </p>
           <ul class="nav justify-content-center">
             <li class="nav-item">
-              <Link href="./" class="nav-link text-body-secondary">Página inicial</Link>
+              <button href="./" class="nav-link text-body-secondary">Página inicial</button>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle text-body-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -228,10 +228,10 @@ const Home = () => {
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <Link class="dropdown-item" href="./resume">Currículo</Link>
+                  <button class="dropdown-item" href="./resume">Currículo</button>
                 </li>
                 <li>
-                  <Link class="dropdown-item" href="./portfolio">Portfólio</Link>
+                  <button class="dropdown-item" href="./portfolio">Portfólio</button>
                 </li>
               </ul>
             </li>
