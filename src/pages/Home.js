@@ -8,7 +8,7 @@ const Home = () => {
 
   const imageStyle = {
     width: '150px', // Ajuste o tamanho da imagem conforme necessário
-    height: 'auto', // Mantém a proporção da imagem
+    height: '100px', // Mantém a proporção da imagem
     marginRight: '20px', // Espaço entre a imagem e o texto
     margin: '20px',
   };
@@ -64,11 +64,8 @@ const Home = () => {
     <div>
       <h1 style={{ margin: '20px' }}>Bem-Vindo! Eu sou a Fernanda Takeda.</h1>
       <div style={containerStyle}>
-        <img
-          style={imageStyle}
-          src="/assets/fotoPerfil.jpg"
-          alt="foto"
-        />
+        <img style={imageStyle}
+          src="./assets/fotoPerfil.jpg" alt="foto"/>
         <p style={descriptionStyle}>
           Estudante de Bacharelado em Ciência da Computação no Instituto Federal de Santa Catarina (IFSC) - Lages.
           Tenho 21 anos, sou de Londrina/Paraná, crescida em São Joaquim/Santa Catarina e Liberdade/São Paulo e
@@ -181,6 +178,30 @@ const Home = () => {
           </button>
         </form>
       </section>
+
+      <footer class="text-center py-4">
+    <p class="mb-3">
+        <strong>Fernanda Megumi Takeda</strong>
+    </p>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a href="./" class="nav-link text-body-secondary">Página inicial</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-body-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Links
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a class="dropdown-item" href="./resume">Currículo</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="./portfolio">Portfólio</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</footer>
     </div>
   );
 };
