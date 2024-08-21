@@ -170,8 +170,6 @@ const Home = () => {
 
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px', maxWidth: '800px', margin: '0 auto' }}>
               <img src={container} alt="container" style={imageStyle} />
-
-
               <div style={{ flex: 1, textAlign: 'justify' }}>
                 <div style={{ fontWeight: 'bold', marginBottom: '5px' }}>Containers:</div>
                 <ul style={{ listStyleType: 'none', padding: 0 }}>
