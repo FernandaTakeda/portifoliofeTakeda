@@ -61,14 +61,7 @@ const Resume = () => {
           <section style={descriptionStyle}>
             <h2 style={{ margin: '10px' }}>Experiência Profissional</h2>
             <p style={descriptionStyle}>
-              Atualmente, estou em busca de uma oportunidade de estágio, de trainee ou vaga de junior na área de tecnologia.
-              Embora ainda não tenha experiência profissional específica nesse setor,
-<<<<<<< HEAD
-              estou motivada e ansiosa para aplicar e expandir meus conhecimentos.
-=======
-              estou altamente motivada e ansiosa para aplicar e expandir meus conhecimentos.
->>>>>>> 00938f247457d610c997d64926c220a45dcf6209
-            </p>
+              Atualmente, estou em busca de uma oportunidade de estágio, de trainee ou vaga de junior na área de tecnologia. Embora ainda não tenha experiência profissional específica nesse setor, estou motivada e ansiosa para aplicar e expandir meus conhecimentos.            </p>
           </section>
         </div>
 
